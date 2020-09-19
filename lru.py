@@ -1,10 +1,5 @@
 from collections import deque
-
-class Data:
-
-    def __init__(self, key, value):
-        self.key = key
-        self.value = value
+from data import Data
 
 class Lru:
 
